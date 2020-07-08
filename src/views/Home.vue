@@ -1,18 +1,29 @@
 <template>
-  <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <div>
+    <baseInfo />
+    <finishItem />
+    <scoreTable />
+    <signFooter />
   </div>
 </template>
-
 <script>
-// @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
-
+import baseInfo from "../components/baseInfo";
+import finishItem from "../components/finishItem";
+import scoreTable from "../components/scoreTable";
+import signFooter from "../components/signFooter";
 export default {
-  name: 'Home',
   components: {
-    HelloWorld
+    baseInfo,
+    finishItem,
+    scoreTable,
+    signFooter
   }
-}
+};
 </script>
+<style >
+.ant-card {
+  width: 80%;
+  margin: 2rem auto;
+  text-align: left;
+}
+</style>
