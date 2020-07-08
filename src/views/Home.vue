@@ -1,10 +1,10 @@
 <template>
-  <div>
-    <baseInfo />
-    <finishItem />
-    <scoreTable />
-    <signFooter />
-  </div>
+    <div>
+        <baseInfo />
+        <finishItem />
+        <scoreTable />
+        <signFooter />
+    </div>
 </template>
 <script>
 import baseInfo from "../components/baseInfo";
@@ -12,18 +12,20 @@ import finishItem from "../components/finishItem";
 import scoreTable from "../components/scoreTable";
 import signFooter from "../components/signFooter";
 export default {
-  components: {
-    baseInfo,
-    finishItem,
-    scoreTable,
-    signFooter
-  }
+    components: {
+        baseInfo,
+        finishItem,
+        scoreTable,
+        signFooter,
+    },
 };
+//baseInfo需要localstroge
+//finishItem需要清理空项
 </script>
-<style >
+<style>
 .ant-card {
-  width: 80%;
-  margin: 2rem auto;
-  text-align: left;
+    width: 80%;
+    margin: 2rem auto !important;
+    text-align: left;
 }
 </style>
