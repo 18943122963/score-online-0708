@@ -8,6 +8,12 @@
  - | 完成基本信息 | [9612618](https://github.com/18943122963/score-online-0708/commit/9612618)
 
 
+### 🐛 Bug 修复
+范围|描述|commitId
+--|--|--
+ - | 提交axios | [5864762](https://github.com/18943122963/score-online-0708/commit/5864762)
+
+
 ### 📦 持续集成
 范围|描述|commitId
 --|--|--
